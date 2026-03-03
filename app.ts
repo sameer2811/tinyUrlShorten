@@ -16,6 +16,7 @@ export function createApp() {
     const controller = new UrlController(service);
 
     app.use("/", createUrlRoutes(controller));
+    app.get("/api/v1/healthy", (req, res) => res.send("OK"));
 
     return app;
 }
