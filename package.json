@@ -1,0 +1,15 @@
+{
+  "name": "tinyurl",
+  "version": "1.0.0",
+  "description": "TinyURL is a scalable and low-latency URL shortening service built using **TypeScript + Express**.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  }
+}
